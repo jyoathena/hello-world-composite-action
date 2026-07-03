@@ -35,3 +35,4 @@ runs:
     - name: Run goodbye.sh
       run: ./goodbye.sh
       shell: bash
+      working-directory: ${{ github.action_path }}
